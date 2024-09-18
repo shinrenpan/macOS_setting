@@ -9,12 +9,12 @@
 eval "$(starship init zsh)"
 ```
 
-## Custom.terminal
+### Custom.terminal
 
 終端機設置檔  
 下載後點擊即可安裝
 
-## Custom.xccolortheme
+### Custom.xccolortheme
 
 Xcode theme  
 下載至存放至 ~/Library/Developer/Xcode/UserData/FontAndColorThemes
