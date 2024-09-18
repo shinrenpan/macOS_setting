@@ -1,0 +1,120 @@
+add_newline = false
+
+format = """\
+  $line_break\
+  $directory\
+  $git_branch\
+  $git_status\
+  $cmd_duration\
+  $line_break\
+  $character\
+"""
+
+scan_timeout = 10
+
+[aws]
+disabled = true
+
+[battery]
+disabled = true
+
+[character]
+format = "$symbol "
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+vicmd_symbol = "[❮](bold green)"
+
+[cmd_duration]
+min_time = 500
+format = "花費了 [$duration](bold yellow)"
+
+[conda]
+disabled = true
+
+[crystal]
+disabled = true
+
+#[directory]
+#truncation_length = 8
+#truncate_to_repo = true
+#prefix = ""
+#style = "bold cyan"
+
+[docker_context]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[env_var]
+disabled = true
+
+[erlang]
+disable = true
+
+[git_branch]
+symbol = " "
+truncation_symbol = "..."
+
+#[git_commit]
+#commit_hash_length = 4
+
+#[git_state]
+#progress_divider = " of "
+#cherry_pick = "🍒 PICKING"
+
+#[git_status]
+#conflicted = "🏳"
+#ahead = "🏎💨"
+#behind = "😰"
+#diverged = "😵"
+#untracked = "🤷‍"
+#stashed = "📦"
+#modified = "📝"
+#staged.value = "++"
+#staged.style = "green"
+#staged_count.enabled = true
+#staged_count.style = "green"
+#renamed = "👅"
+#deleted = "🗑"
+
+[golang]
+disabled = true
+
+[hostname]
+disabled = true
+
+[java]
+disabled = true
+
+[jobs]
+disabled = true
+
+[julia]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[memory_usage]
+disabled = true
+
+[hg_branch]
+disable = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[nodejs]
+disabled = true
+
+
