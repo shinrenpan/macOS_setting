@@ -8,7 +8,6 @@
 - [Starship], 使用 [Homebrew] 安裝
 - [Homebrew] git 替代 macOS git, brew install git 後, 重新開啟終端機就行 (macOS Sequoia), 不需要再任何設置
 
-
 ## 指令設置
 
 ### GitHub SSH Key
@@ -39,8 +38,17 @@ eval "$(starship init zsh)"
 
 ### Custom.xccolortheme
 
-Xcode theme  
-下載至存放至 ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+Xcode Theme  
+下載至存放至 **~/Library/Developer/Xcode/UserData/FontAndColorThemes**
+
+## 軟體設置
+
+### Xcode
+
+1. Settings -> Navigation -> Navigation Style 改為 Open in Place
+2. Settings -> Text Editing -> Display -> Code folding ribbon 打勾
+3. Settings -> Key Bindings -> Navigators - Show Navigator 設為 cmd 1
+4. Settings -> Key Bindings -> Debug Area - Show Debug Area 設為 cmd 2
 
 
 [Homebrew]: https://brew.sh
